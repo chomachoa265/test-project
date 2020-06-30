@@ -1,0 +1,63 @@
+.PostCard{
+    cursor: pointer;
+    color: black;
+    background-color: rgb(252, 252, 252);
+    border: .1em solid whitesmoke;
+    border-radius: .2rem;
+    box-shadow: .5px .5px .5px .5px rgb(233, 232, 232);
+    margin: 10px;
+    /* overflow: hidden; */
+}
+
+
+.PostCardHeader{
+    height: 40px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.PostCardHeader img{
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    height: 100%;
+    /* margin: 5px; */
+}
+
+
+.PostCardHeader span{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px 0;
+}   
+
+
+.PostCardBody {
+    padding: 20px;
+    /* background-color: khaki; */
+}
+
+.PostInfo {
+    height: 100%;
+    width: 60%;
+    min-width: 200px;
+    /* background-color: violet; */
+}
+
+.PostTitle{
+    display: block;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.PostContent{
+    display: -webkit-box;
+    font-size: larger;
+    height: auto;
+    overflow: hidden;
+    -webkit-line-clamp: 7;
+    text-overflow: ellipsis;
+    line-height: 1.8rem;
+    height: 200px;
+    -webkit-box-orient: vertical;
+}

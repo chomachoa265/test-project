@@ -1,0 +1,32 @@
+.addPost{
+    width: 700px;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.addPost label {
+    display: block;
+    font-size: 1.1rem;
+    margin: 10px 0px 10px;
+}
+
+.addPost input{
+    display: block;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 4px;
+    outline-color: skyblue;
+    box-sizing: border-box;
+}
+.addPost input[type="file"]{
+    outline:none;
+}
+
+
+.addPost textarea{
+    resize: none;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100px;
+}
